@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: fastapi-langgraph-app
+    name: financial-conversational-agent
     env: docker
     plan: free
     dockerfilePath: ./Dockerfile
