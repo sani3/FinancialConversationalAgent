@@ -1,0 +1,37 @@
+fastapi[all]
+gunicorn
+langchain
+langchain-community
+langchain-core
+langchain-google-genai
+langchain-ollama
+langchain-openai
+langchain-tavily
+langchain-xai
+langgraph
+langgraph-checkpoint
+langgraph-checkpoint-sqlite
+langgraph-cli[inmem]
+langgraph-prebuilt
+langgraph-sdk
+langsmith
+openai
+pydantic
+python-dotenv
+regex
+requests
+SQLAlchemy
+tenacity
+trustcall
+typing_extensions
+uvicorn
+wikipedia
+google.generativeai
+# langgraph-checkpoint-postgres 
+# psycopg[binary,pool]
+# psycopg2-binary 
+
+redis
+# rq
+aiofiles
+aiosqlite
