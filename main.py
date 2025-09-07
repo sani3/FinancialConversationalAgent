@@ -1,6 +1,6 @@
 import logging
 from fastapi import FastAPI, HTTPException
-from typing import TypedDict, List, Optional
+from typing_extensions import TypedDict, List, Optional
 from datetime import date
 from agent import create_graph, InputStateSchema, TransactionTrim
 from langchain_core.prompts import HumanMessagePromptTemplate

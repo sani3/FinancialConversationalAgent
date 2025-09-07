@@ -1,4 +1,4 @@
-from typing import TypedDict, Optional, List, Union, Literal
+from typing_extensions import TypedDict, Optional, List, Union, Literal
 from datetime import datetime
 from enum import Enum
 

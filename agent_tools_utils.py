@@ -1,7 +1,7 @@
 import json
 from datetime import datetime, timezone
 from langchain_core.tools import tool
-from typing import TypedDict, Optional, List, Union, Literal
+from typing_extensions import TypedDict, Optional, List, Union, Literal
 from agent_models_utils import TransactionTrim, TransactionType
 import re
 

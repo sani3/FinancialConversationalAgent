@@ -3,7 +3,7 @@ import base64
 import aiofiles
 import aiosqlite
 from dotenv import load_dotenv
-from typing import TypedDict, Literal, Annotated, Optional, List
+from typing_extensions import TypedDict, Literal, Annotated, Optional, List
 from langchain.chat_models import init_chat_model
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage, AnyMessage
 from langchain_core.prompts import SystemMessagePromptTemplate, HumanMessagePromptTemplate
